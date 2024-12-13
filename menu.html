@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kafe Ondo Lintong</title>
+    <link rel="stylesheet" href="C:\ONDO LINTONG CAFFE\css\style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <!-- Gambar logo -->
+          <img src="logo.img.jpg" alt="Ondo Lintong Logo" class="logo-img" />
+          <!-- Tulisan dengan dua warna -->
+          <h1>
+            <span class="white">ONDO</span> <span class="black">LINTONG</span>
+          </h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contak.html">Contact</a></li>
+          <li>
+            <a href="">
+              <img
+                src="keranjang.png"
+                alt="Ondo Lintong Logo"
+                class="icon-img"
+              />
+            </a>
+          </li>
+          <li>
+            <a href=""></a>
+            <img src="cert.png" alt="Ondo Lintong Logo" class="icon-img" />
+          </li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <h2>Menu Kami</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="kopilintong.jpg" alt="Kopi Lintong" class="menu-item-img" />
+          <h3>Kopi Lintong</h3>
+          <p>Rp 20.000</p>
+        </div>
+        <div class="menu-item">
+          <img src="kopiondo.png" alt="Kopi Lintong" class="menu-item-img" />
+          <h3>cappucino</h3>
+          <p>Rp 20.000</p>
+        </div>
+        <div class="menu-item">
+          <img
+            src="nasigoreng.png"
+            alt="Nasi Goreng Lintong"
+            class="menu-item-img"
+          />
+          <h3>Nasi Goreng Lintong</h3>
+          <p>Rp 30.000</p>
+        </div>
+        <div class="menu-item">
+          <img src="jeruses.jpg" alt="Kopi Lintong" class="menu-item-img" />
+          <h3>Es Jeruk</h3>
+          <p>Rp 15.000</p>
+        </div>
+        <div class="menu-item">
+          <img src="tehtarik.png" alt="Teh Tarik" class="menu-item-img" />
+          <h3>Teh Tarik</h3>
+          <p>Rp 15.000</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Ondo Lintong. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

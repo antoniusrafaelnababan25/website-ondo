@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kafe Ondo Lintong</title>
+    <link rel="stylesheet" href="C:\ONDO LINTONG CAFFE\css\style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <!-- Gambar logo -->
+          <img src="logo.img.jpg" alt="Ondo Lintong Logo" class="logo-img" />
+          <!-- Tulisan dengan dua warna -->
+          <h1>
+            <span class="white">ONDO</span> <span class="black">LINTONG</span>
+          </h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contak.html">Contact</a></li>
+          <li>
+            <a href="">
+              <img
+                src="keranjang.png"
+                alt="Ondo Lintong Logo"
+                class="icon-img"
+              />
+            </a>
+          </li>
+          <li>
+            <a href=""></a>
+            <img src="cert.png" alt="Ondo Lintong Logo" class="icon-img" />
+          </li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+  </body>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>Tentang Kami</h2>
+      <p>
+        Kami adalah kafe yang menyediakan kopi terbaik dari Lintong. Nikmati
+        suasana nyaman dengan cita rasa yang khas dan pelayanan yang ramah. Kami
+        berkomitmen untuk memberikan pengalaman terbaik bagi setiap pengunjung
+        yang datang.
+      </p>
+
+      <div class="about-images">
+        <div class="about-img">
+          <img src="ab1.jpg" alt="Kopi Lintong" />
+          <p>Kopi Lintong yang kami sajikan menggunakan biji kopi pilihan.</p>
+        </div>
+        <br />
+        <div class="about-img">
+          <img src="ab2.jpg" alt="Suasana Kafe" />
+          <p>
+            Suasana nyaman di kafe kami, tempat yang sempurna untuk bersantai.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="ab3.jpg" alt="Menu Kue Lintong" />
+          <p>Kue-kue spesial yang melengkapi setiap sajian kopi kami.</p>
+        </div>
+        <div class="about-img">
+          <img src="ab4.jpg" alt="Suasana Kafe" />
+          <p>Suasana nyaman di kafe kami, tempat yang baik.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Ondo Lintong. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector(".nav-links");
+      navLinks.classList.toggle("active");
+    }
+  </script>
+  </body>
+</html>
